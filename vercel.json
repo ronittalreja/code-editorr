@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/frontend/code-sync/server/server.js" },
+    { "src": "/(.*)", "dest": "/frontend/code-sync/client/build/$1" }
+  ]
+}
